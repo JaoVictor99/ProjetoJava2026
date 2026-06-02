@@ -1,0 +1,12 @@
+Sistema de Cadastro Escolar: 
+
+Classes: 
+Professor, Cordernador, Alunos, Turma, Curso / Disciplina. 
+
+Relatorio de Notas e Faltas - CSV 
+
+Login
+
+
+
+
