@@ -1,6 +1,20 @@
-public class Curso extends Turma {
+public class Curso {
+    private String nome;
+    private Coordenador coordenador;
 
-    private String NomeCurso;
-    private int idCurso; 
-    
+
+    public Curso(String nome, Coordenador coordenador){
+        this.nome = nome;
+        this.coordenador=coordenador;
+    }
+
+
+    public String getNome(){
+        return nome;
+    }
+
+    public Coordenador getCoordenador(){
+        return coordenador;
+        
+    }
 }
