@@ -3,6 +3,8 @@ public class Docente {
     private String cpf;
     private String telefone;
     private double salario;
+    private String especialidade;
+
 
     public Docente(String nome, String cpf, String telefone, double salario){
         this.nome = nome;
@@ -23,6 +25,10 @@ public class Docente {
     public double getSalario(){
         return salario;
     }
+
+    public String getEspecialidade(){
+    return especialidade;
+ }
 
 
 

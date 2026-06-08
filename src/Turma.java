@@ -2,13 +2,13 @@ import java.util.ArrayList;
 
 public class Turma {
     private String codigo;
-    private Professor professor;
+    private Docente docente;
     private ArrayList<Aluno> alunos;
 
 
-    public Turma(String codigo, Professor professor){
+    public Turma(String codigo, Docente docente){
         this.codigo = codigo;
-        this.professor = professor;
+        this.docente = docente;
     }
 
 
@@ -16,7 +16,9 @@ public class Turma {
         return codigo;
     }
 
-    public Professor getProfessor(){
-        return professor;
+    public Docente getProfessor(){
+        return docente;
     }
+
+   
 }
