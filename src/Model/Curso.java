@@ -1,3 +1,4 @@
+package Model;
 public class Curso {
     private String nome;
     private Coordenador coordenador;
