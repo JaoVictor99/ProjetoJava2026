@@ -5,7 +5,7 @@ public class Curso {
 
     public Curso(String nome, Coordenador coordenador){
         this.nome = nome;
-        this.coordenador=coordenador;
+        this.coordenador = coordenador;
     }
 
 
@@ -15,6 +15,6 @@ public class Curso {
 
     public Coordenador getCoordenador(){
         return coordenador;
-        
+
     }
 }

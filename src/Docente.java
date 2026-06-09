@@ -3,14 +3,15 @@ public class Docente {
     private String cpf;
     private String telefone;
     private double salario;
-    private String especialidade;
+    private String disciplina;
 
 
-    public Docente(String nome, String cpf, String telefone, double salario){
+    public Docente(String nome, String cpf, String telefone, double salario, String disciplina){
         this.nome = nome;
         this.cpf = cpf;
         this.telefone = telefone;
         this.salario = salario;
+        this.disciplina = disciplina;
     };
 
     public String getNome(){
@@ -26,8 +27,8 @@ public class Docente {
         return salario;
     }
 
-    public String getEspecialidade(){
-    return especialidade;
+    public String getDisciplina(){
+    return disciplina;
  }
 
 
